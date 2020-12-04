@@ -19,6 +19,8 @@ class User < ApplicationRecord
 
     before_validation :ensure_session_token
 
+    # spire methods for validation 
+
     def self.find_by_credentials(username, password) 
         user = User.find_by(username: username)
 
