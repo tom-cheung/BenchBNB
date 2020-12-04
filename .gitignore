@@ -1,0 +1,9 @@
+# Ignore node_modules 
+node_modules/
+
+# Ignore bundle 
+bundle.js
+bundle.js.map
+
+# Ignore master key for descrupting credentials and more 
+/config/master.key
